@@ -29,3 +29,6 @@ Install the npm packages
 ``` truffle compile ```
 
 ``` truffle migrate ```
+
+This will migrate the two smart contract 1_initial_migration.js and 2_apple.js on the ganache.
+Make you you update the smart contract address in the src/index.js file.
