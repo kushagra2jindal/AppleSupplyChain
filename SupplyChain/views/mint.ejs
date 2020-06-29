@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dummy blockchain</title>
+  </head>
+  <body>
+    
+    
+          <h2>Mint A New Apple</h2>
+            <form action="/mint" id="mintForm">
+              
+                <input type="text" name="minterAddress" value="enter the address"/>
+                <input type="text" name="appleColor" value="enter color of Apple"/>
+                <input type="text" name="datePlug" value="enter the date"/>
+                <input type="submit" value="mint" >
+              
+            </form> 
+
+            </br>
+
+          <h2>Transfer A Apple</h2>
+            <form action="/transferFrom" id="productForm">
+                <input type="text" name="senderAddress" value="enter the sender address"/>
+                <input type="text" name="recieverAddress" value="enter the receiver address"/>
+                <input type="text" name="amount" value="enter the amount"/>
+                <input type="text" name="index" value="enter the index"/>
+                <input type="submit" value="Transfer From" >
+            </form> 
+
+            </br>
+
+          <h2>Check The Owner Of Apple</h2>
+            <form action="/owner" id="productForm">
+              <input type="text" name="index" value="enter the index"/>
+              <input type="submit" value="Owner of" >
+            </form>
+
+            </br>
+
+
+          <h2>Apple Is Eaten By Consumer</h2>
+            <form action="/destroy" id="productForm">
+              <input type="text" name="index" value="enter the index"/>
+              <input type="text" name="address" value="enter your public address"/>
+              <input type="submit" value="Apple eaten" >
+            </form> 
+
+            </br>
+
+        
+          <h2>Get Ethers Of Account</h2>
+            <form action="/balance" id="productForm">
+              <input type="text" name="address" value="enter the address"/> 
+              <input type="submit" value="balance" >
+            
+            </form>
+
+            </br>
+
+
+          <h2>Track An Apple</h2>
+            <form action="/trackApple" id="productForm">
+              <input type="text" name="index" value="enter the apple index"/> 
+              <input type="submit" value="track the current apple" >
+            
+            </form>
+
+            </br>
+
+            <h4 style="color:red"> <%= data %> </h4>
+
+  </body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dummy blockchain</title>
+  </head>
+  <body>
+    
+    
+          <h2>Mint A New Jam</h2>
+            <form action="/mintJam" id="mintForm">
+              
+                <input type="text" name="minterAddress" value="enter the address"/>
+                <input type="text" name="datePlug" value="enter the date"/>
+                <input type="text" name="apple1" value="enter the apple 1 hash"/>
+                <input type="text" name="apple2" value="enter the apple 2 hash"/>
+                <input type="submit" value="mint" >
+
+            </form> 
+
+            </br>
+
+            <h2>Transfer Jam</h2>
+            <form action="/transferFromJam" id="productForm">
+                <input type="text" name="senderAddress" value="enter the sender address"/>
+                <input type="text" name="recieverAddress" value="enter the receiver address"/>
+                <input type="text" name="amount" value="enter the amount"/>
+                <input type="text" name="index" value="enter the index"/>
+                <input type="submit" value="Transfer From" >
+            </form> 
+
+            </br>
+
+          <h2>Check The Owner Of Jam</h2>
+            <form action="/ownerJam" id="productForm">
+              <input type="text" name="index" value="enter the index"/>
+              <input type="submit" value="Owner of" >
+            </form>
+
+            </br>
+
+
+          <h2>Jam Is Eaten By Consumer</h2>
+            <form action="/destroyJam" id="productForm">
+              <input type="text" name="index" value="enter the index"/>
+              <input type="text" name="address" value="enter your public address"/>
+              <input type="submit" value="Jam eaten" >
+            </form> 
+
+            </br>
+
+        
+          <h2>Get Ethers Of Account</h2>
+            <form action="/balanceJam" id="productForm">
+              <input type="text" name="address" value="enter the address"/> 
+              <input type="submit" value="balance" >
+            
+            </form>
+
+            </br>
+
+
+          <h2>Track The Jam</h2>
+            <form action="/trackJam" id="productForm">
+              <input type="text" name="index" value="enter the apple index"/> 
+              <input type="submit" value="track the Jam" >
+            
+            </form>
+
+            </br>
+
+            <h4 style="color:red"> <%= data %> </h4>
+
+  </body>
+
+</html>
