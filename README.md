@@ -15,3 +15,17 @@ To install truffle:-
 # Installation
 
 Cloning the project https://github.com/kushagra2jindal/AppleSupplyChain.git
+
+Install the npm packages
+
+```npm install```
+
+# Starting Ganache-CLI
+
+```ganache-cli```
+
+# Compile and Migrate the smart contract
+
+``` truffle compile ```
+
+``` truffle migrate ```
