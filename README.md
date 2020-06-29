@@ -48,11 +48,10 @@ Make you you update the smart contract address in the src/index.js file.
 
 The server has started and can be viewed on http://localhost:3000/
 
+![alt text](https://github.com/kushagra2jindal/AppleSupplyChain/blob/master/Screenshots/AppleOutput.png)
+<Output Screenshot>
+
 # Jam contract
 
 The project is extending with a special jam contract. 
 This contract provide additional functionality to our supply chain. For example, a Jam manufaturing unit buys some apple and create jam from it, this contract can be used to track the apples used in jam and other details about the jam.
-
-
-![alt text](https://github.com/kushagra2jindal/AppleSupplyChain/blob/master/Screenshots/AppleOutput.png)
-<Output Screenshot>
