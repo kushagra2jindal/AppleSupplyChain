@@ -1,16 +1,20 @@
 # AppleSupplyChain
-Transparent supply chain using ethereum blockchain.
+Transparent supply chain using ethereum blockchain. For more details refer to the blog:- https://medium.com/integraate/blockchain-and-the-supply-chain-95d17f4090a0
 
 # Prerequirements
 1. node.js and npm.
 2. Ganache-cli or ganache running on port 8545.
 3. truffle
+4. ipfs - For more details on IPFS refer to the blog:- https://medium.com/integraate/blockchain-and-the-supply-chain-ipfs-ed9a2b4decab
 
 To install ganache-cli:-
 ``` npm install -g ganache-cli ```
 
 To install truffle:-
 ``` npm install -g truffle ```
+
+To install IPFS
+``` Download the appropriate setup, according to your Operating System from here, and execute the install.sh file. ```
 
 # Installation
 
@@ -23,6 +27,10 @@ Install the npm packages
 # Starting Ganache-CLI
 
 ```ganache-cli```
+
+# Starting IPFS server
+
+```ipfs daemon```
 
 # Compile and Migrate the smart contract
 
